@@ -1,0 +1,6 @@
+venv/
+__pycache__
+labels.npy
+filenames.npy
+features.npy
+notes.txt
