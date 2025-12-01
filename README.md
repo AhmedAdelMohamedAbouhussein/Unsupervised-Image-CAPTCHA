@@ -3,6 +3,13 @@
 This project implements an **unsupervised image-based CAPTCHA** system.  
 It extracts features from images using **ResNet18**, clusters them with **KMeans**, and presents an interactive **PyGame-based CAPTCHA** for users to select images belonging to a target cluster.
 
+
+<div align="center">
+  <img src="screenshots/Screenshot 2025-12-01 040046.png" alt="Screenshot 4"/>
+</div>
+
+
+
 ---
 
 
