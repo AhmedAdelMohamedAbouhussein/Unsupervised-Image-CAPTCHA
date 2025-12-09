@@ -11,7 +11,7 @@ SAVE_NAMES = "filenames.npy"
 # 1) Load pretrained ResNet18
 model = models.resnet18(weights=models.ResNet18_Weights.DEFAULT)
 model = torch.nn.Sequential(*list(model.children())[:-1])  # remove classifier
-model.eval()
+model.eval() # set to evaluation mode (to disable dropout, batchnorm, etc.)
 
 # 2) Image preprocessing
 transform = transforms.Compose([
